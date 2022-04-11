@@ -14,7 +14,6 @@ public class rzulf : MonoBehaviour
     {
         questcherry.SetActive(false);
     }
-    // Update is called once per frame
     private void Update()
     {
         if (isplayernear&&Input.GetKeyDown(KeyCode.F))

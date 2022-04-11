@@ -17,11 +17,12 @@ public class FrogEnemy : Base_Enemy
         rb = GetComponent<Rigidbody2D>();
         jumptimer = jumptimerbase;
     }
-    // Update is called once per frame
+
     void Update()
     {
         if (player == null) return;
         jumptimer -= Time.deltaTime;
+        //simple jump towards player
         if (jumptimer < 0)
         {
             jumptimer = jumptimerbase;

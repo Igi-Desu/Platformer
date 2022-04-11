@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Flashscreen : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     Image image;
     Coroutine routine=null;
     void Start()
@@ -27,6 +27,7 @@ public class Flashscreen : MonoBehaviour
         Color color = image.color;
         color.a = 0;
         image.color = color;
+        //flash in
         for (float t=0; t<=flashinoutdur; t += Time.deltaTime)
         {
             Color currentcolor = image.color;
@@ -34,6 +35,7 @@ public class Flashscreen : MonoBehaviour
             image.color = currentcolor;
             yield return null;
         }
+        //flash out
         for(float t=0; t<=flashinoutdur; t += Time.deltaTime)
         {
             Color currentcolor = image.color;

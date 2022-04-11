@@ -5,7 +5,7 @@ public class respawner : MonoBehaviour
     // Start is called before the first frame update
     public GameObject whatToRespawn;
     public GameObject animationbefore;
-    public void beginrepsawning()
+    private void Start()
     {
         Invoke("anim", 4);
         Invoke("spawn", 5);

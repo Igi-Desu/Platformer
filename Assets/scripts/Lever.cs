@@ -3,7 +3,7 @@ using UnityEngine.Playables;
 
 public class Lever : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     [SerializeField]GameObject Attachedblock;
     [SerializeField]GameObject Exclamation;
     [SerializeField] GameObject Player;

@@ -52,6 +52,7 @@ public class Dialogue_Manager : MonoBehaviour
         foreach (var singlechar in sentence[index].ToCharArray())
         {
             text.text += singlechar;
+            //sans like talking 
             if (singlechar != ' ') FindObjectOfType<audiomanager>().Play("TutelTalk");
             yield return new WaitForSeconds(typingspeed);
         }

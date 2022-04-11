@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Base_Enemy : MonoBehaviour
 {
+    //base enemy has only deathanim
     [SerializeField] protected GameObject DeathAnim;
-
 
      virtual protected void OnDestroy()
     {

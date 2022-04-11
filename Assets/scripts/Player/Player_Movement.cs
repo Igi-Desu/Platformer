@@ -16,7 +16,6 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] LayerMask whatisground;
     [SerializeField] float wallslidingspeed;
     [SerializeField] Gamemanager gamemanager;
-    [SerializeField] Bar staminaBar;
     [SerializeField] ParticleSystem walkParticles;
     [SerializeField] ParticleSystem landparticles;
     [SerializeField] ParticleSystem bloodparticles;
@@ -60,7 +59,6 @@ public class Player_Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
     }
-    // Update is called once per frame
     void Update()
     {
          //guard clause

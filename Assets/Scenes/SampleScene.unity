@@ -5443,7 +5443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327ff811bcc14d84bb37c97f39e5e6c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 861605414}
+  target: {fileID: 861605414}
   horizontalborder: 1
   verticalborder: 1
   maxypos: 9999
@@ -23721,7 +23721,6 @@ MonoBehaviour:
     m_Bits: 8
   wallslidingspeed: 0.2
   gamemanager: {fileID: 1606824503}
-  staminaBar: {fileID: 0}
   walkParticles: {fileID: 1416888262}
   landparticles: {fileID: 1095815033}
   bloodparticles: {fileID: 940300247}

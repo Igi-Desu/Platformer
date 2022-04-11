@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class questcherry : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //cherry that helps complete quest
     [SerializeField]rzulf qrzulf;
     private void OnTriggerEnter2D(Collider2D collision)
     {

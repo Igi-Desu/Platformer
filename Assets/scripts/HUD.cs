@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HUD : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     [SerializeField]GameObject[] Hearts= new GameObject[3];
 
 

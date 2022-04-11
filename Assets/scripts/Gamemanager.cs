@@ -13,7 +13,6 @@ public class Gamemanager : MonoBehaviour
     {
         cutscene = false;
     }
-    // Start is called before the first frame update
     public void Respawn()
     {
         StartCoroutine(Resp());
@@ -49,9 +48,7 @@ public class Gamemanager : MonoBehaviour
     }
     public IEnumerator FuncAfterx(float x , Action func)
     {
-        Debug.Log("epic");
         yield return new WaitForSeconds(x);
-        Debug.Log("Epic2");
         func();
     }
 }

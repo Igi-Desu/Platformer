@@ -60,24 +60,23 @@
     <Compile Include="Assets\scripts\Gamemanager.cs" />
     <Compile Include="Assets\scripts\Player\Player_Movement.cs" />
     <Compile Include="Assets\scripts\Flashscreen.cs" />
-    <Compile Include="Assets\audiomanager.cs" />
-    <Compile Include="Assets\scripts\Bar.cs" />
+    <Compile Include="Assets\scripts\audiomanager.cs" />
     <Compile Include="Assets\scripts\Base_Enemy.cs" />
+    <Compile Include="Assets\scripts\enemyrespawnanim.cs" />
     <Compile Include="Assets\scripts\the end scene\endtitles.cs" />
+    <Compile Include="Assets\scripts\Eagle.cs" />
     <Compile Include="Assets\scripts\Dialogue_Manager.cs" />
     <Compile Include="Assets\scripts\HUD.cs" />
     <Compile Include="Assets\scripts\Cherry.cs" />
     <Compile Include="Assets\scripts\questcherry.cs" />
     <Compile Include="Assets\scripts\cameramovement.cs" />
     <Compile Include="Assets\scripts\FrogEnemy.cs" />
-    <Compile Include="Assets\sound.cs" />
+    <Compile Include="Assets\scripts\sound.cs" />
     <Compile Include="Assets\scripts\Lever.cs" />
-    <Compile Include="Assets\trapdiamond.cs" />
+    <Compile Include="Assets\scripts\trapdiamond.cs" />
     <Compile Include="Assets\scripts\Destroyable_Block_Base.cs" />
     <Compile Include="Assets\scripts\rzulf.cs" />
-    <Compile Include="Assets\scripts\Eagle.cs" />
     <Compile Include="Assets\scripts\respawner.cs" />
-    <Compile Include="Assets\enemyrespawnanim.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
